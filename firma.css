@@ -1,0 +1,24 @@
+.virgil {
+  width:400px;
+  height:230px;
+  outline: 2px solid #391717;
+  outline-offset: 3px;
+  overflow: hidden;
+  filter:grayscale(0.2) contrast(1.1) brightness(1) sepia(0.2);
+}
+
+.aldaren {
+  color:transparent;
+  text-align:left; 
+  font:160px 'Lordish', serif; 
+  letter-spacing:2px; 
+  line-height:10px; 
+  margin-top:100px; 
+  margin-left:30px; 
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #631f1f;
+  opacity:0.7;
+  transform: rotate(0deg);
+  position:absolute;
+  text-shadow:0 0 8px #000000;
+}
