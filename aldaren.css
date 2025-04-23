@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Lordish';
+  src: url('https://cdn.jsdelivr.net/gh/lrxcvii/virgil@main/Lordish-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.post-virgil {
+  width:440px;
+  font-size:15.5px;
+  margin:auto;
+  font-family: 'Cormorant Garamond'; 
+  color: #cbcbcb; 
+  line-height: 26px;
+  text-align:justify;
+  margin-top:20px;
+}
+.titulo-vir {
+  font: 62px 'Lordish';
+  text-align:center;
+  margin-top:5px; 
+  text-transform:lowercase;
+  line-height:45px;
+  margin-botom:20px;
+  letter-spacing:-1px;
+}
+.vir-datos {
+  font: 100 16px 'Cormorant Garamond';
+  color:var(--groups);
+  font-style:italic;
+  text-align:center;
+  margin:10px auto;
+  opacity:0.7;
+  width:200px;
+  margin-top:5px;
+
+}
+.virgil-icon {
+  font-size:60px;
+  color:#202020;
+  text-align:center;
+  margin:30px;
+}
+.virgil-in {
+  float: left; 
+  font: 100px 'Lordish'; 
+  width: 60px; 
+  height: 120px; 
+  text-align: center; 
+  margin-top: 0px; 
+  margin-block: auto; 
+  padding-right: 30px; 
+  background: -webkit-linear-gradient(var(--groups), #333); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.virgil {
+  width:400px;
+  height:230px;
+  outline: 2px solid #391717;
+  outline-offset: 3px;
+  overflow: hidden;
+  filter:grayscale(0.2) contrast(1.1) brightness(1) sepia(0.2);
+}
+
+.aldaren {
+  color:transparent;
+  text-align:left; 
+  font:160px 'Lordish', serif; 
+  letter-spacing:2px; 
+  line-height:10px; 
+  margin-top:100px; 
+  margin-left:30px; 
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #631f1f;
+  opacity:0.7;
+  transform: rotate(0deg);
+  position:absolute;
+  text-shadow:0 0 8px #000000;
+}
